@@ -1,0 +1,130 @@
+/* Header - Navbar */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.header {
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-nav {
+    width: 80%;
+    height: inherit;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-nav-left {
+    /* border: 2px solid green; */
+    height: inherit;
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-nav-left h3:hover, .sub-nav-left p:hover {
+    cursor: pointer;
+}
+
+.sub-nav-right {
+    /* border: 2px solid green; */
+    height: inherit;
+    width: 20%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.nav-search input {
+    padding-left: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+/* Body */
+
+.contents {
+    background-color: rgb(101, 212, 230);
+    width:  100%;
+    height: 40rem;
+}
+
+.back-button button {
+    height: 3rem;
+    width: 6rem;
+    padding: 0.5rem;
+    background-color: blue;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.about p {
+    width: 80%;
+    margin-top: 1rem;
+    text-align: justify;
+    line-height: 2rem;
+}

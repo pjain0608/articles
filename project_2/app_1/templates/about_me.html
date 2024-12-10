@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{% static 'css/about_me.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    {% include 'nav.html' %}
+
+    <div class="contents">
+        <div class="back-button">
+            <button>
+                <a href="{% url 'index' %}">
+                    <h2>
+                        Back
+                    </h2>
+                </a>
+            </button>
+        </div>
+        <div class="about">
+            <h1>
+                About
+            </h1>
+            <p>
+                Welcome to the <strong>Headlines Page</strong>, your go-to destination for staying informed about the most significant events and developments shaping our world. Here, we bring you concise and impactful summaries of trending stories across various domains, including technology, environment, healthcare, space exploration, and global markets.
+                Our mission is to provide readers with a quick yet comprehensive glimpse into the latest happenings, empowering you to stay updated without the overwhelm. From groundbreaking scientific discoveries to transformative policies and market trends, our headlines are curated to reflect the diversity and dynamism of today's world.
+                Whether you're a tech enthusiast, a climate advocate, a healthcare professional, or simply a curious mind, the <strong>Headlines Page</strong> ensures that you're always a step ahead. Dive in and explore stories that matter, sparking your curiosity and inspiring informed conversations.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
