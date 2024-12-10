@@ -7,7 +7,7 @@ A simple and dynamic web application to manage and display articles. The project
 -  Database Integration: Articles are fetched dynamically from the database for easy management and updates.
 
 ## Tech Stack
--  Backend: Django
+-  Backend: Django, python
 -  Frontend: HTML, CSS
 -  Database: MySQL
 
