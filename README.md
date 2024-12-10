@@ -8,7 +8,7 @@ A simple and dynamic web application to manage and display articles. The project
 
 ## Tech Stack
 -  Backend: Django
--  Frontend: HTML, CSS, JavaScript
+-  Frontend: HTML, CSS
 -  Database: MySQL
 
 ## How It Works
